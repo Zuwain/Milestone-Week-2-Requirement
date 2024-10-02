@@ -98,7 +98,7 @@ public class BankSystemTest {
                     bank.updateAccount(updateAccNum, newHolder);
                     break;
 
-                case 6: // Remove Account
+                case 6: 
                     System.out.print("Account Number to Remove: ");
                     String removeAccNum = scanner.nextLine();
                     bank.removeAccount(removeAccNum);
